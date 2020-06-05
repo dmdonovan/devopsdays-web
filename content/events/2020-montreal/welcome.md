@@ -1,85 +1,56 @@
 +++
 Title = "devopsdays Montreal 2020"
 Type = "welcome"
-aliases = ["/events/2020-montreal/"]
+aliases = [
+    "/events/2020-montreal/",
+    "/events/2020-montreal/location/",
+    "/events/2020-montreal/propose/",
+    "/events/2020-montreal/registration/",
+    "/events/2020-montreal/sponsor/"
+]
+
 Description = "devopsdays Montreal 2020"
 +++
+<div class = "row" style="background: #ed0b07; color: #ffffff; padding: 20px; margin: 20px; font-size: 20px">
+    <h2>*** UPDATE ***</h2>
+  <pre>
+Dear community friends,
+
+Unfortunately, we have made the difficult decision to cancel DevOpsDays Montreal in 2020. Due to the uncertainty of the future of in-person events this fall, we do not feel we would be delivering the same quality human experience, so we are taking a pause in the hopes that things will find a new normal for 2021. 
+
+Stay tuned for news about online meetups and 2021.
+
+Thanks for your understanding, and stay healthy! 
+
+Your DoD MTL organizing team (Donald, Ian, James, Julia, Kaycie, Michael, Pierre-Luc)
+email: <strong> {{< email_organizers >}}</strong>
+
+Chers amis de la communauté,
+
+Malheureusement, nous avons pris la décision difficile d'annuler DevOpsDays Montréal en 2020. En raison de l'incertitude quant à l'avenir des événements en personne cet automne, nous ne croyons pas pouvoir offrir la même qualité d'expérience humaine sans se voir face à face. Nous prenons donc une pause dans l'espoir que les choses retrouveront une nouvelle normale pour 2021.
+
+Restez à l'écoute pour des nouvelles sur les rencontres en ligne et 2021.
+
+Merci pour votre compréhension et restez en bonne santé !
+
+Votre équipe organisatrice DoD MTL (Donald, Ian, James, Julia, Kaycie, Michael, Pierre-Luc)
+email: <strong> {{< email_organizers >}}</strong>  
+  </pre>
+  </div>
+</div>
+<br>
+<br>
+<br>
+
+
+
+
 
 <!-- <div style="text-align:center;">
   {{< event_logo >}}
 </div> -->
 
-<div class = "row">
-  <div class = "col-md-2">
-    <strong>Dates</strong>
-  </div>
-  <div class = "col-md-8">
-    {{< event_start >}} - {{< event_end >}}
-  </div>
-</div>
 
-<div class = "row">
-  <div class = "col-md-2">
-    <strong>Location</strong>
-  </div>
-  <div class = "col-md-8">
-    {{< event_location >}}
-  </div>
-</div> 
-
-<!-- <div class = "row">
-  <div class = "col-md-2">
-    <strong>Register</strong>
-  </div>
-  <div class = "col-md-8">
-    {{< event_link page="registration" text="Register to attend the conference!" >}}
-  </div>
-</div> -->
-
-<!-- <div class = "row">
-  <div class = "col-md-2">
-    <strong>Propose</strong>
-  </div>
-  <div class = "col-md-8">
-    {{< event_link page="propose" text="Propose a talk!" >}}
-  </div>
-</div> -->
-
-<!-- <div class = "row">
-  <div class = "col-md-2">
-    <strong>Program</strong>
-  </div>
-  <div class = "col-md-8">
-    View the {{< event_link page="program" text="program." >}}
-  </div>
-</div> -->
-
-<!-- <div class = "row">
-  <div class = "col-md-2">
-    <strong>Speakers</strong>
-  </div>
-  <div class = "col-md-8">
-    Check out the {{< event_link page="speakers" text="speakers!" >}}
-  </div>
-</div> -->
-
-<div class = "row">
-  <div class = "col-md-2">
-    <strong>Sponsors</strong>
-  </div>
-  <div class = "col-md-8">
-    {{< event_link page="sponsor" text="Sponsor the conference!" >}}
-  </div>
-</div>
-
-<div class = "row">
-  <div class = "col-md-2">
-    <strong>Contact</strong>
-  </div>
-  <div class = "col-md-8">
-    {{< event_link page="contact" text="Get in touch with the organizers" >}}
-  </div>
-</div>
 
 <!-- Uncomment if you added your city twitter name -->
 <!--
